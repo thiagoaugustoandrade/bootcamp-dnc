@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Poppins:wght@400;700&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav#principal{
+    width: 100%;
+    height: 100px;
+    background: #303030;
+    color:  #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom: 1px solid #BABABA;
+}
+#menu{
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+}
+#principal div a{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#principal div a:hover{
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+#principal button{
+    margin-right: 5%;
+    width: 80px;
+    height: 39px;
+    border: 0px;
+    border-radius: 15px;
+    top: 31px;
+    font-size: 20px;
+    background: #0C70F2;
+    color: #FFFFFF;
+    box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
+    cursor: pointer;
+   
+}
