@@ -5,8 +5,8 @@
 :root{
     --azul-dnc: #0C70F2;
     --preto-dnc: #303030;
-    --cinza-hover: #FFFFFF;
-
+    --cinza-hover: #cbcbcb;
+    --branco: white;
     --fonte-padrao: 'Inter';
 }
 /*------ LINHAS GERAIS-------*/
@@ -101,7 +101,7 @@ header h2 .invert{
 /*----- FORMULÁRIO ------*/
 
 form{
-    color: var(--cinza-hover);
+    color: var(--branco);
     font-family: var(--fonte-padrao);
     font-size: 30px;
     font-weight: 600;
@@ -163,4 +163,89 @@ input.button:hover{
     transform: translateY(-7px);
     transition-duration: 0.8s;
     background-color: #5f9ff4;
+}
+
+/*------- FOOTER -----------*/
+
+footer{
+    width: 100%;
+    background-color: var(--azul-dnc);
+}
+
+footer .linha1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 330px;
+}
+
+footer h5{
+    text-align: center;
+    color: var(--branco);
+    font-weight: 800;
+    font-size: 18px;
+    font-family: var(--fonte-padrao);
+
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+footer ul li{
+    text-align: center;
+    color: var(--branco);
+    font-weight: 600;
+    font-size: 18px;
+    font-family: var(--fonte-padrao);
+
+    margin: 10px 0px 10px 0px;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+footer ul li a:hover{
+    color: var(--cinza-hover);
+
+}
+
+footer .endereco{
+    font-family: var(--fonte-padrao);
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--branco);
+    text-align: center;
+    width: 20%;
+}
+footer.linha2{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+}
+
+footer .linha2 a{
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 18px ;
+    font-family: var(--fonte-padrao);
+    font-weight: 600;
 }
