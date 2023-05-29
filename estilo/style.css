@@ -307,6 +307,7 @@ footer .linha2 a#politica:hover{
         width: 100%;
         justify-content: center;
         margin: 0px;
+        margin-top: 10px;
     }
 
     /*------ SECTION -------*/
@@ -321,7 +322,7 @@ footer .linha2 a#politica:hover{
         padding-left: 15px;
     }
 
-    /*----- FORMULÁRIO -----*/
+    /*----- FORM -----*/
 
     form{
         width: 95%;
@@ -334,6 +335,29 @@ footer .linha2 a#politica:hover{
 
     /*-------- FOOTER -----------*/
 
+    footer .linha1{
+        flex-direction: column;
+
+    }
+
+    footer .endereco{
+        width: 95%;
+        margin-bottom: 25px;
+        font-size: 16px;
+    }
+
+    footer .linha2 a#termos{
+        font-size: 16px;
+        margin-left: 8%;
+    }
+
+    footer .linha2 a#politica{
+        font-size: 16px;
+    }
+
+    footer .linha2{
+        padding-bottom: 10px;
+    }
 
 
 
