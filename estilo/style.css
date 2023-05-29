@@ -56,9 +56,16 @@ nav#principal{
     font-size: 20px;
     background: var(--azul-dnc);
     color: var(--branco);
-    box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
-    cursor: pointer;
-   
+    box-shadow: 3px 2px 4px #0c70f240;
+    cursor: pointer; 
+}
+
+#principal button:hover{
+    background-color: #5f9ff4;
+    color: var(--branco);
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: #062a595e;
 }
 
 /*--- SEÇÃO PRINCIPAL ------*/
